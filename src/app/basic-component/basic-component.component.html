@@ -1,0 +1,40 @@
+<div class="column-align">
+  <div>
+    <h2> Generate Addition & Substraction Worksheet</h2>
+  </div>
+<mat-form-field class="example-container" appearance="outline" >
+    <mat-label>Sum Type</mat-label>
+    <mat-select disableRipple  formControlName="sumtype">
+      <mat-option value="add">Addition</mat-option>
+      <mat-option value="sub">Addition&Subraction</mat-option>
+      <mat-option value="mixed">Mixed</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field class="example-container" appearance="outline">
+    <mat-label>No. of Questions</mat-label>
+    <mat-select disableRipple formControlName="logicnoofque">
+      <mat-option value="25">25 Questions</mat-option>
+      <mat-option value="50">50 Questions</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field class="example-container" appearance="outline" >
+    <mat-label>No. of Digits</mat-label>
+    <mat-select disableRipple formControlName="logicnoofdigit">
+      <mat-option value="1">1 digit</mat-option>
+      <mat-option value="2">2 digit</mat-option>
+      <mat-option value="3">3 digit</mat-option>
+      <mat-option value="4">4 digit</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field class="example-container" appearance="outline" >
+    <mat-label>No. of Rows</mat-label>
+    <mat-select disableRipple formControlName="logicnoofrows">
+      <mat-option value="4">4 rows</mat-option>
+      <mat-option value="5">5 rows</mat-option>
+      <mat-option value="10">10 rows</mat-option>
+     
+    </mat-select>
+  </mat-form-field>
+  <button mat-raised-button color="primary">Generate Worksheet</button>
+</div>
