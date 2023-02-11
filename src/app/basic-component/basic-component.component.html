@@ -36,5 +36,6 @@
      
     </mat-select>
   </mat-form-field>
-  <button mat-raised-button color="primary">Generate Worksheet</button>
+  <button mat-raised-button color="primary" (click)="generate()" >Generate Worksheet</button>
+  <div> {{statusMessage}}</div>
 </div>
