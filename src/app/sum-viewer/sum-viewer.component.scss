@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+}
+tr {
+    height: 25%;
+    width: 25%;
+}
+
+.column-align{
+    
+    flex-direction: column;
+}
+table {
+    position: relative; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    border: 1;
+}

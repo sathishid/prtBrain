@@ -1,0 +1,13 @@
+<div class="root">
+
+    <h3>Addition</h3>
+    <table>
+        <tr *ngFor="let row of challenges;">
+            <td *ngFor="let col of row;">
+                <div *ngFor="let obj of col;">
+                    {{obj}}
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
