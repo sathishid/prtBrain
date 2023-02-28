@@ -2,10 +2,10 @@
 
     <h3>Addition</h3>
     <table>
-        <tr *ngFor="let row of challenges;">
-            <td *ngFor="let col of row;">
-                <div *ngFor="let obj of col;">
-                    {{obj}}
+        <tr *ngFor="let rowOfChallenge of challenges;">
+            <td *ngFor="let aChallenge of rowOfChallenge;">
+                <div *ngFor="let aValue of aChallenge;">
+                    {{aValue}}
                 </div>
             </td>
         </tr>
